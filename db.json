@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "username": "nivetha",
+      "password": "12345",
+      "phone": "1234567890",
+      "age": "45",
+      "address": "13 Street",
+      "state": "Tamilnadu",
+      "city": "Surandai",
+      "id": 6
+    },
+    {
+      "username": "mahalakshmi ",
+      "password": "12345",
+      "phone": "1234567890",
+      "age": "22",
+      "address": "12",
+      "state": "tamilnadu",
+      "city": "surandai",
+      "id": 7
+    }
+  ]
+}

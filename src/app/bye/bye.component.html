@@ -1,0 +1,36 @@
+<h1> Registration Form </h1>
+<form [formGroup]="ballForm">
+    <p>
+        <label for="username"> Name </label>
+        <input type="text" placeholder="Enter the Name" formControlName="username"> 
+        
+    </p>
+    <p>
+        <label for="password"> Password </label>
+        <input type="password" placeholder="Enter the password" formControlName="password">
+  
+    </p>
+    <button type="button" (click)="login()" class="btn btn-success" > Submit </button>
+
+    </form>
+    <!--<table>
+        <thead>
+            <th> Name </th>
+            <th> Phone No </th>
+            <th> Address </th>
+            <th> State</th>
+            <th> City</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of data">
+                <td>{{item.name}} </td>
+                <td>{{item.phone}} </td>
+                <td>{{item.address}} </td>
+                <td>{{item.state}} </td>
+                <td>{{item.city}} </td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" (click)="getdata()"> Values </button> -->
+    
+    

@@ -1,0 +1,40 @@
+<h1> Update Form </h1>
+<form [formGroup]="updateForm">
+    <p>
+        <label for="username"> Name </label>
+        <input type="text" placeholder="Enter the Name" formControlName="username"> 
+     
+    </p>
+    <p>
+        <label for="password"> Password </label>
+        <input type="password" placeholder="Enter the password" formControlName="password">
+        
+    </p>
+    <p>
+        <label for="phone"> Phone Number </label>
+        <input type="text" placeholder="Enter the Phone Number" formControlName="phone"> 
+        
+    </p>
+    <p>
+        <label for="age"> Age </label>
+        <input type="text" placeholder="Enter the Age" formControlName="age"> 
+       
+    </p>
+    <p>
+        <label for="address"> Address </label>
+        <input type="text" placeholder="Enter the Address" formControlName="address"> 
+        
+    </p>
+    <p>
+        <label for="state"> State </label>
+        <input type="text" placeholder="Enter the State" formControlName="state"> 
+        
+    </p>
+    <p>
+        <label for="city"> City </label>
+        <input type="text" placeholder="Enter the City" formControlName="city"> 
+       
+    </p>
+    <button type="button" class="btn btn-success" [disabled]="this.updateForm.invalid" (click)="update()"> Submit </button>
+    <button type="reset" class="btn btn-secondary"> Reset </button>
+</form>
